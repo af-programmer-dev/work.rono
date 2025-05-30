@@ -1,0 +1,49 @@
+.header {
+	background-color: red;
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.center-display {
+	text-align: center;
+}
+
+.center-block-one {
+	display: inline-block;
+	background-color: whitesmoke;
+	color: red;
+	width: 340px;
+	border-radius: 15px;
+	border: 2px solid green;
+	margin-top: 100px;
+	font-size: 17px;
+	text-align: left;
+}
+
+.header-two {
+	background-color: red;
+	color: white;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 80px;
+	text-align: center;
+}
+
+.article-ideas {
+	margin-top: 100px;
+}
+
+.footer {
+	background-color: grey;
+	color: white;
+	position: absolute;
+	right: 0;
+	left: 0;
+	text-align: center;
+	height: 85px;
+}
