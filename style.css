@@ -1,3 +1,6 @@
+body {
+	margin-bottom: none;
+}
 .header {
 	background-color: red;
 	color: white;
@@ -8,8 +11,74 @@
 	text-align: center;
 }
 
+.btn-window {
+	color: white;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 18px;
+	left: 5px;
+	cursor: pointer;
+}
+.btn-window:hover {
+	color: blue;
+}
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: -350px;
+	width: 200px;
+	height: 100%;
+	background-color: #333;
+	color: white;
+	padding: 20px;
+	transition: left 0.7s ease;
+	z-index: 1000;
+}
+.sidebar.active {
+			left: 0;
+		}
+		.sidebar-share.active {
+			left: 0;
+		}
+		.sidebar-share {
+			position: fixed;
+			top: 70px;
+			left: -340px;
+			height: 100%;
+			width: 200px;
+			background-color: #333;
+			color: white;
+			padding: 20px;
+			transition: left 0.9s ease;
+			z-index: 1000;
+		}
+		.close-btn {
+			border-radius: 5px;
+			border: none;
+			background-color: red;
+			padding: 5px 10px;
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			font-size: 17px;
+		}
+		a {
+			font-size: 19px;
+		}
+
 .center-display {
 	text-align: center;
+}
+
+.div-left {
+	text-align: left;
+	background-color: #333;
+	border-radius: 10px;
+	border: none;
+	width: 200px;
+	font-size: 18px;
 }
 
 .center-block-one {
@@ -38,12 +107,111 @@
 	margin-top: 100px;
 }
 
-.footer {
-	background-color: grey;
+.header-three {
+	background-color: red;
 	color: white;
 	position: absolute;
 	right: 0;
 	left: 0;
 	text-align: center;
+	height: 80px;
+}
+
+.div-music-center {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.div-block-music {
+	display: inline-block;
+	background-color: whitesmoke;
+	color: green;
+	width: 340px;
+	border-radius: 10px;
+	border: 2px solid green;
+	text-align: left;
+	padding: 10px 10px;
+}
+
+.footer {
+	background-color: black;
+	color: darkred;
+	position: absolute;
+	right: 0;
+	left: 0;
+	text-align: center;
 	height: 85px;
+}
+
+
+/*About websahifasi uchun Style*/
+
+* {
+	font-family: Helvetica;
+}
+
+
+/*Contact websahifasi uchun Style*/
+
+.div-centery {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.div-cen-block {
+	display: inline-block;
+	background-color: red;
+	width: 380px;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.text-align-one {
+	background-color: red;
+	color: white;
+	border-radius: 10px;
+	border: none;
+	text-align: left;
+	padding: 10px 10px;
+}
+
+/*Postlar websahifasi uchun Style*/
+
+body {
+	font-family: Helvetica;
+}
+
+.h1 {
+	text-align: center;
+	margin-top: 120px;
+	color: orange;
+}
+
+.p {
+	font-size: 200px;
+	text-align: center;
+	margin-top: 1px;
+}
+
+.div-center-button {
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+
+.button-back {
+	background-color: red;
+	color: white;
+	border-radius: 8px;
+	border: none;
+	width: 150px;
+	height: 30px;
+	font-size: 15px;
+}
+
+.button-back:hover {
+	background-color: black;
+	color: red;
+	transform: scale(0.8);
 }
