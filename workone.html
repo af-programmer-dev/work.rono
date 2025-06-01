@@ -8,8 +8,36 @@
 <body>
 
 	<header class="header">
+
+		<svg title="chap tomondan oyna ochiladi." onclick="toggleSidebar()" class="btn-window" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+ 		<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+		</svg>
+
+		<div class="sidebar" id="sidebar">
+			<button class="close-btn" onclick="toggleSidebar()"><strong>X</strong></button>
+
+			<h1>Working in Rono:</h1>
+
+			<div class="div-left">
+				<ol>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="post.html">Posts</a></li>
+				</ol>
+			</div>
+
+			<hr>
+
+		</div>
+
+		<script>
+			function toggleSidebar() {
+
+				document.getElementById('sidebar').classList.toggle('active');
+			}
+		</script>
 		
-		<h1>Work - Rono</h1>
+		<h1>Work - Rono || Asosiy sahifa</h1>
 
 	</header>
 
@@ -44,11 +72,47 @@
 		<h1>Test websayti:</h1>
 		<p style="font-size: 17px;">Men 1-iyunda o'zimni Test websaytimni ishga tushiraman yani Google'ga joylayman.</p>
 
-	</div>
+	</div><br><br>
 
+	<header class="header-three">
+		
+		<h1>Musqalar!</h1>
+
+	</header>
+
+
+	<div class="div-music-center">
+
+		<div class="div-block-music">
+
+			<h3>Konsta 'Gulim' nomli qo'shig'i:</h3>
+
+			<audio style="border-radius: 24px; border: 1px solid red;" src="konsta gulim.mp3" controls>
+				Konstaning Gulim nomli qo'shig'i
+			</audio>
+
+			<hr>
+
+			<h3>Konsta 'U haqida' nomli qo'shig'i:</h3>
+
+			<audio style="border-radius: 24px; border: 1px solid red;" src="uhaqida.mp3" controls>
+				Konsta Uhaqida nomli qo'shig'i
+			</audio>
+
+			<hr>
+
+			<h3>Konsta 'Odamlar nima deydi' nomli qo'shig'i:</h3>
+
+			<audio style="border-radius: 24px; border: 1px solid red;" src="odamlar nima deydi.flac" controls>
+				Konsta Odamlar nima deydi nomli qo'shig'i
+			</audio>
+
+		</div>
+
+	</div><br><br>
 
 	<footer class="footer">
-		<h2>Work - Rono  ||  <span style="color: blue;">_moon_light_20256</span> - uchun maxsus tayyorlandi</h2>
+		<h1>WorkR || WorkSpace - barcha huquqlar himoyalangan!!! || WebEditor</h1>
 	</footer>
 		
 
